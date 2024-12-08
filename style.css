@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+}
+nav{
+    background: black;
+   
+}
+.nav-list{
+    transition: 1s;
+}
+
+.nav-list:hover{
+    background-color: rgba(128, 128, 128, 0.544);
+    border-radius: 60px;
+}
+.nav-button-div {
+    display: flex;
+}
+.nav-button-div button{
+     color: white;
+}
+
+.nav-button-div li{
+    padding: 0px 10px;
+    transition: 1s;
+}
+.nav-button-div li i{
+    margin-right: 10px;
+}
+.nav-button-div li:hover{
+    background-color: rgba(128, 128, 128, 0.544);
+    border-radius: 60px;
+}
+
+.nav-button-div button{
+    padding: 0px 10px;
+    background-color: white;
+    border-radius: 60px;
+    color: black;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.nav-button-div button:hover{
+    background-color: rgba(255, 255, 255, 0.855);
+}
+.heading-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-left h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.itag-div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.itag-div div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.itag-div i{
+    padding: 15px;
+    border-radius: 10px;
+    margin:0px 10px;
+}
+.itag-div div p{
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+.first-i-tag{
+    background-color: rgba(0, 0, 139, 0.099);
+    color: black;
+}
+#second-i-tag{
+    border: none;
+    background-color: none;
+    color: rgba(0, 0, 0, 0.405);
+}
+.location-input-row{
+    border: 1px solid lightgray;
+    background-color: rgba(0, 0, 139, 0.099);
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 0px;
+    height: 40px;
+}
+.location-input-row p{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 7px;
+}
+.location-input-row p i{
+    margin-right: 10px;
+    font-size: 13px;
+}
+.i-second-tag{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.today-now-div{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.today-now-div button{
+    border: none;
+    width: 250px;
+    padding: 10px;
+    background-color: rgba(0, 0, 139, 0.099);
+    border-radius: 7px;
+    text-align: left;
+}
+.today-now-div button i{
+    margin-right: 20px;
+}
+#seePrices{
+    border: none;
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+#seePrices:hover{
+    background: rgba(0, 0, 0, 0.815);
+}
+
+#Suggestions-heading{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.services-box{
+    background-color: rgba(0, 0, 139, 0.099);
+    margin: 10px 10px;
+    width: 420px;
+}
+.services-box h5{
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.services-box div{
+    display: flex;
+}
+
+.services-box button{
+    margin-bottom: 10px;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: 0.4s
+}
+
+.services-box button:hover{
+    background-color: rgba(211, 211, 211, 0.384);
+}
+
+@media  screen and (max-width:990px) {
+    .nav-button-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:522px) {
+    .location-input-row{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:785px) {
+    #seePrices{
+        margin-bottom: 70px;
+    }
+    
+}
+
+@media screen and (max-width:978px) {
+    #Suggestions-heading{
+        text-align: center;
+    }
+}
